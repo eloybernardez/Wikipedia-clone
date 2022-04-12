@@ -1,0 +1,68 @@
+/*--------------MAIN SECTION---------------*/
+.first-section .subtitle figure {
+  width: 11rem;
+}
+
+.first-section {
+  margin: 0 auto;
+}
+
+.title-container .logo {
+  display: none;
+}
+
+.section-content {
+  grid-template-columns: repeat(3, 10rem); /*Arreglar con 1 fr*/
+  font-size: 1.1rem;
+}
+
+.first-section .search-bar-container {
+  order: 3;
+}
+
+.first-section .languages .line {
+  display: block;
+}
+
+.section-content figure {
+  display: block;
+}
+
+.section-content div:nth-child(2),
+.section-content div:nth-child(11) {
+  justify-self: start;
+}
+
+.section-content div:nth-child(5) {
+  justify-self: start;
+  padding-left: 1rem;
+}
+
+.section-content div:nth-child(7) {
+  justify-self: end;
+  padding-right: 1rem;
+}
+
+.section-content div:nth-child(3),
+.section-content div:nth-child(8) {
+  padding-right: 1rem;
+}
+
+.section-content div:first-child,
+.section-content div:nth-child(10) {
+  justify-self: end;
+}
+
+/*--------------LAST SECTION BUTTON---------------*/
+
+/*--------------SECOND SECTION---------------*/
+
+.wiki-links {
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.wiki-info .wiki-info--app-stores-container {
+  width: 100%;
+  margin: 0;
+  margin-top: 1rem;
+}

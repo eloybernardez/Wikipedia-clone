@@ -1,0 +1,113 @@
+a:hover {
+  text-decoration: underline;
+}
+
+/*--------------MAIN SECTION---------------*/
+.first-section .logo {
+  display: block;
+}
+
+.title-container .logo {
+  display: none;
+}
+
+.first-section {
+  margin: 0 auto;
+}
+
+.section-content div:hover {
+  background-color: #eaecf0;
+}
+
+.search-bar:hover {
+  border: 0.1rem solid grey;
+  border-right: none;
+}
+
+.search-bar:focus-within {
+  border: 0.15rem solid blue;
+  border-right: none;
+}
+
+/*--------------SEARCH BAR---------------*/
+
+.search-bar:hover {
+  border: 0.1rem solid grey;
+  border-right: none;
+}
+
+.search-bar:focus {
+  border: 0.15rem solid var(--wiki-blue);
+  border-right: none;
+}
+
+/*--------------LAST SECTION BUTTON---------------*/
+
+/*--------------SECOND SECTION---------------*/
+
+.wiki-info {
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.wiki-info .wiki-info--description,
+.wiki-info .wiki-info--links {
+  max-width: 24rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 33%;
+  padding: 1rem;
+  text-align: start;
+  margin-left: 1rem;
+}
+
+/*--------------SECOND SECTION - Part 2---------------*/
+
+.wiki-links {
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  order: 3;
+  width: 69%;
+  position: absolute;
+  left: 33%;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.wiki-links a:hover {
+  background-color: var(--line-color);
+  text-decoration: none;
+}
+
+.wiki-info .wiki-info--links {
+  order: 2;
+}
+
+.wiki-info .wiki-info--description figure,
+.wiki-info .wiki-info--links figure {
+  align-self: flex-start;
+}
+
+.wiki-links a div p {
+  font-size: 0.85rem;
+}
+
+.wiki-info .wiki-info--app-stores-container {
+  justify-content: flex-start;
+}
+
+/*--------------FOOTER---------------*/
+
+footer {
+  flex-direction: row;
+}
+
+.footer-bar {
+  font-size: 0.85rem;
+}
+
+.footer-bar li {
+  margin-left: 1.5rem;
+}
