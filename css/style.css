@@ -258,10 +258,10 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  margin: 1rem 0 0 1rem;
-  width: 80%;
+  margin: 1rem auto;
+  width: 100%;
 }
 
 .wiki-info .wiki-info--app-stores-container a img {
