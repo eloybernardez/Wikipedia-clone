@@ -136,6 +136,10 @@ a {
   height: 100%;
 }
 
+.search-label {
+  visibility: hidden;
+}
+
 .search-bar input {
   width: 80%;
   height: 100%;
@@ -147,7 +151,7 @@ a {
 .search-bar div button {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 100%;
   width: 3rem;
   cursor: pointer;
